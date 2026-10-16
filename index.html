@@ -3,8 +3,37 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Moonrise Mini Golf</title>
-  <meta name="description" content="Moonrise Mini Golf: free mini golf for Meta Quest 2, 3 and 3S. Four 18-hole courses (a golden-hour seaside cove, a glowing mushroom forest, a Halloween pumpkin hollow and a sunny retro city in the sky), real putting physics, and private online games with voice for up to four friends.">
+  <title>Moonrise Mini Golf: free VR mini golf for Meta Quest</title>
+  <meta name="description" content="Free VR mini golf with friends on Meta Quest 2, 3 and 3S. Four free 18-hole courses (a golden-hour seaside cove, a glowing mushroom forest, a Halloween pumpkin hollow and a sunny retro city in the sky), a new daily challenge every day, real putting physics and private online games with voice for up to four.">
+  <link rel="canonical" href="https://dreamscale123.github.io/moonrise-mini-golf-site/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Moonrise Mini Golf">
+  <meta property="og:title" content="Moonrise Mini Golf: free VR mini golf for Meta Quest">
+  <meta property="og:description" content="Four free 18-hole courses, a new daily challenge every day and private online rounds with friends. Free on the Meta Horizon Store.">
+  <meta property="og:url" content="https://dreamscale123.github.io/moonrise-mini-golf-site/">
+  <meta property="og:image" content="https://dreamscale123.github.io/moonrise-mini-golf-site/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Moonrise Mini Golf: a golf-ball moon rising over the sea between a lighthouse and glowing mushrooms">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoGame",
+    "name": "Moonrise Mini Golf",
+    "url": "https://dreamscale123.github.io/moonrise-mini-golf-site/",
+    "image": "https://dreamscale123.github.io/moonrise-mini-golf-site/assets/og-image.jpg",
+    "description": "Free VR mini golf with friends: four free 18-hole courses, a new daily challenge every day, real putting physics and private online games with voice for up to four.",
+    "genre": ["Mini golf", "Sports", "Casual"],
+    "gamePlatform": ["Meta Quest 2", "Meta Quest 3", "Meta Quest 3S"],
+    "applicationCategory": "Game",
+    "playMode": ["SinglePlayer", "MultiPlayer"],
+    "numberOfPlayers": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 4 },
+    "author": { "@type": "Organization", "name": "Moonrise Studios", "email": "moonrisestudiovr@gmail.com" },
+    "publisher": { "@type": "Organization", "name": "Moonrise Studios", "email": "moonrisestudiovr@gmail.com" },
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "url": "https://vr.meta.me/s/212g9W8agUth2ZL" }
+  }
+  </script>
   <meta name="theme-color" content="#0b1026">
   <link rel="icon" href="assets/favicon.png">
   <link rel="apple-touch-icon" href="assets/icon-180.png">
@@ -15,6 +44,7 @@
     <div class="wrap">
       <a class="brand" href="index.html"><img src="assets/mark-128.png" alt=""><span>Moonrise Mini Golf</span></a>
       <ul>
+        <li><a class="link" href="#halloween">Halloween</a></li>
         <li><a class="link" href="#courses">Courses</a></li>
         <li><a class="link" href="support.html">Support</a></li>
         <li><a class="link" href="privacy.html">Privacy</a></li>
@@ -25,8 +55,8 @@
   <header class="hero">
     <div class="content">
       <h1 style="margin:0"><img class="logo" src="assets/logo.png" alt="Moonrise Mini Golf"></h1>
-      <p class="tag">Four courses. Real putting. Friends along for the round.</p>
-      <p class="sub">Out now on the Meta Horizon Store for Meta Quest 2, 3 and 3S &middot; Free to play</p>
+      <p class="tag">Free VR mini golf with friends.</p>
+      <p class="sub">Four free courses and a new daily challenge every day &middot; Out now on the Meta Horizon Store for Meta Quest 2, 3 and 3S</p>
       <div class="buttons">
         <a class="btn" href="https://vr.meta.me/s/212g9W8agUth2ZL">Get it free on the Meta Horizon Store</a>
         <a class="btn ghost" href="#courses">See the courses</a>
@@ -36,6 +66,19 @@
   </header>
 
   <main>
+    <section class="band" id="halloween">
+      <div class="wrap">
+        <div>
+          <h2><span class="eyebrow">Free for Halloween</span>Trick-or-treat in Pumpkin Hollow</h2>
+          <p class="lead">Mini golf through a cozy Halloween village under the harvest moon. Knock on the five doors of Hollow Lane for five Halloween balls, putt into a witch's cauldron and across a giant spider's web, and finish inside the Great Jack as lantern drones draw a jack-o'-lantern in the sky.</p>
+          <div class="buttons" style="justify-content:flex-start"><a class="btn" href="https://vr.meta.me/s/212g9W8agUth2ZL">Play it free on Meta Quest</a></div>
+        </div>
+        <div class="gallery" style="margin-top:0;grid-template-columns:1fr">
+          <figure><img loading="lazy" src="assets/shots/hollow_drone_jack_o_lantern.jpg" alt="Lantern drones drawing a glowing jack-o'-lantern in the night sky over Pumpkin Hollow's village"><figcaption>The finale's drone show</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
     <section id="clubhouse">
       <div class="wrap">
         <h2><span class="eyebrow">Start here</span>The Moonrise Clubhouse</h2>
@@ -47,10 +90,22 @@
       </div>
     </section>
 
+    <section class="band" id="daily">
+      <div class="wrap">
+        <div>
+          <h2><span class="eyebrow">Every day</span>A new daily challenge</h2>
+          <p class="lead">A new challenge waits in the clubhouse every day, from Closest to the Pin to Ace Hunt, on a hole from one of the courses. Three tries, your best counts, and your streak grows with every day you play.</p>
+        </div>
+        <div class="gallery" style="margin-top:0;grid-template-columns:1fr">
+          <figure><img loading="lazy" src="assets/shots/clubhouse_daily_challenge.jpg" alt="The daily challenge board in the clubhouse: Bank Shot on Atomic Skyways hole 17, with the player's best score and a four-day streak"><figcaption>Today's challenge, on the clubhouse board</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
     <section id="courses">
       <div class="wrap">
-        <h2><span class="eyebrow">72 holes</span>Four worlds to putt through</h2>
-        <p class="lead">Four worlds, eighteen holes each. Every hole has an honest safe route and a real hole-in-one line, and is a place worth standing in.</p>
+        <h2><span class="eyebrow">72 free holes</span>Four worlds to putt through</h2>
+        <p class="lead">Four free worlds, eighteen holes each, plus Glowtown, our first add-on course. Every hole has an honest safe route and a real hole-in-one line, and is a place worth standing in.</p>
         <div class="courses">
           <article class="course">
             <img class="art" src="assets/shots/cove_h14_waterfall_pools.jpg" alt="Terraced greens stepping down a sunlit cliff above the cove">
@@ -78,6 +133,13 @@
             <div class="body">
               <h3><small>Course four</small>Atomic Skyways</h3>
               <p>Sunny days in the city of tomorrow. Putt through the Sparkle-Jet Car Wash, across a saucer skating rink and into the Stardome, then watch the Starliner lift off on 18.</p>
+            </div>
+          </article>
+          <article class="course glowtown">
+            <img class="art" src="assets/shots/glowtown_h16_sky_arcade.jpg" alt="A pinball-table green with flippers and bumpers under the Sky Arcade's neon sign at sunset">
+            <div class="body">
+              <h3><small>Add-on course</small>Glowtown</h3>
+              <p>A neon showbiz city at night. Putt past the Leaning Motel, work the flippers on a sky-arcade pinball table and drop off the top of the tower. Play a round by October 18 and it's yours to keep; after that it's a $3.99 add-on.</p>
             </div>
           </article>
         </div>
@@ -129,7 +191,7 @@
     <section id="gallery">
       <div class="wrap">
         <h2><span class="eyebrow">Straight from the game</span>Screenshots</h2>
-        <p class="lead">Rendered in the game engine from the real game: the clubhouse and holes from all four courses. The hole-in-one is a real putt from the game's own physics.</p>
+        <p class="lead">Rendered in the game engine from the real game: the clubhouse and holes from all five courses. The hole-in-one is a real putt from the game's own physics.</p>
         <div class="gallery">
           <figure><img loading="lazy" src="assets/shots/cove_h01_banking_past_the_conch.jpg" alt="A golf ball rides the rail past the mouth of a giant conch shell"><figcaption>Welcome Ashore: banking past the giant conch</figcaption></figure>
           <figure><img loading="lazy" src="assets/shots/forest_h03_root_tunnel.jpg" alt="A glowing green running into a tunnel of luminous roots at night"><figcaption>Root Tunnel</figcaption></figure>
@@ -144,7 +206,11 @@
           <figure><img loading="lazy" src="assets/shots/hollow_h09_witchs_cauldron.jpg" alt="A green ending at a swirling purple cauldron pool at night"><figcaption>Witch's Cauldron</figcaption></figure>
           <figure><img loading="lazy" src="assets/shots/skyways_h07_saucer_rink.jpg" alt="A white skating rink of a green with orange saucer circles under a canopy"><figcaption>Saucer Rink</figcaption></figure>
           <figure><img loading="lazy" src="assets/shots/skyways_h10_stardome.jpg" alt="A blue green with planets and a swirl hanging over it in a domed hall"><figcaption>Stardome</figcaption></figure>
+          <figure><img loading="lazy" src="assets/shots/hollow_h12_spiders_web.jpg" alt="A green shaped like a giant spider's web beside a veranda, the Great Jack glowing beyond"><figcaption>The Spider's Web</figcaption></figure>
+          <figure><img loading="lazy" src="assets/shots/hollow_great_jack_lit.jpg" alt="The Great Jack, a giant jack-o'-lantern, blazing for the finale under the moon"><figcaption>The Great Jack lights up</figcaption></figure>
           <figure><img loading="lazy" src="assets/shots/hollow_finale_fireworks.jpg" alt="Fireworks bursting over Pumpkin Hollow's village at night"><figcaption>Pumpkin Hollow's finale</figcaption></figure>
+          <figure><img loading="lazy" src="assets/shots/glowtown_h11_dance_floor.jpg" alt="First-person view from the tee down a neon street to a lit-up dance floor with dancing figures, hotels and theaters on both sides"><figcaption>Glowtown: the Dance Floor</figcaption></figure>
+          <figure><img loading="lazy" src="assets/shots/glowtown_h14_volcano_crater.jpg" alt="A round purple green inside a volcano crater ringed with glowing lava, three bumpers around the cup"><figcaption>Glowtown: the Volcano Crater</figcaption></figure>
           <figure><img loading="lazy" src="assets/shots/cove_h01_hole_in_one_fireworks.jpg" alt="Fireworks over the cove and lighthouse after a hole-in-one"><figcaption>A hole-in-one lights up the sky</figcaption></figure>
           <figure><img loading="lazy" src="assets/shots/cove_h01_tee_address.jpg" alt="First-person view of the blade putter behind the ball on the first tee"><figcaption>Lining up on the first tee</figcaption></figure>
         </div>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dreamscale123.github.io/moonrise-mini-golf-site/sitemap.xml
